@@ -19,6 +19,7 @@ ZSTU 使用的是锐捷 ePortal Web ，MenToHust 不可用，这里参考了 [Ru
 
 本项目使用了 Go 重写了 [RuijiePortalLoginTool](https://github.com/callmeliwen/RuijiePortalLoginTool) 的脚本，已验证可用，可在 release 根据路由器架构进行下载    
 使用方法：  
+上传到路由器当中，运行以下命令：  
 ```shell
 ./login 学号 密码
 ```
@@ -27,7 +28,7 @@ ZSTU 使用的是锐捷 ePortal Web ，MenToHust 不可用，这里参考了 [Ru
 
 
 #### 定时登录
-OpenWrt 自带了 Cron 定时执行程序，将登录程序加入 Cron 定时任务，美团早上7点执行一次，[Cron 表达式工具](https://cron.ciding.cc/)
+OpenWrt 自带了 Cron 定时执行程序，将登录程序加入 Cron 定时任务，每天早上7点执行一次，[Cron 表达式工具](https://cron.ciding.cc/)
 
 ## 手机方案
 实际上直接使用手机连接 ZstuWlan 再开热点就能实现共享，只是这样不方便和舍友共享网络
