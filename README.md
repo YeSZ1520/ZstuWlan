@@ -15,7 +15,7 @@
 
 但是 12 点断网后路由器会失去验证，需要再次手动登录，比较麻烦，可以使用程序实现自动重连
 #### 登录程序
-ZSTU 使用的是锐捷 ePortal Web ，MenToHust 不可用，这里参考了 [RuijiePortalLoginTool](https://github.com/callmeliwen/RuijiePortalLoginTool) 项目
+ZSTU 使用的是 ePortal Web ，MenToHust 不可用，这里参考了 [RuijiePortalLoginTool](https://github.com/callmeliwen/RuijiePortalLoginTool) 项目
 
 本项目使用了 Go 重写了 [RuijiePortalLoginTool](https://github.com/callmeliwen/RuijiePortalLoginTool) 的脚本，已验证可用，可在 release 根据路由器架构进行下载    
 使用方法：  
